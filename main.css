@@ -1,8 +1,8 @@
 h1 {
     font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
+    font-family: "Anton";
+    padding-left: 20px;
+    margin-left: 20px;
     font-weight: ;
     text-decoration: ;
     color: ;
@@ -11,27 +11,41 @@ h1 {
 
 h2 {
     font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
+    font-family: "Anton" ;
+    padding-left: 20px;
+    margin-left: 20px;
     font-weight: ;
-    color: ;
+    color: gray;
     background-color: ;
 }
 
 p {
-    font-family: ;
+    font-family: "Abel" ;
     font-size: ;
-    padding: ;
-    margin: ;
-    color: ;
-    background-color: ;
+    padding-left: 20px;
+    margin-left: 20px;
+    color: rgb(22, 15, 15);
+    background-color: ;  
 }
 
 .logo {
     background-size: cover;
-    background-image: url();
-    background-color: ;
-    height: ;
-    width: ;
+    background-image: url("https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png");
+    background-color: yellow;
+    margin-left: 40px;
+    height: 230px;
+    width: 230px;
 }
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
